@@ -1,0 +1,17 @@
+[project]
+name = "class-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Igbodo Victor Lucky", email = "igbodovictorlucky@gmailcom" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+class-project = "class_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
